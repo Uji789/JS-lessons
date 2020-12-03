@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn__language{
+    width: 150px;
+    height: 50px;
+    background-color: forestgreen;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin: 50px;
+    
+}
