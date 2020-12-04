@@ -1,0 +1,17 @@
+body{
+    font-family: "East Sea Dokdo", sans-serif;
+}
+.wrapp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.random__color{
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.random__color-desc,
+.color{
+    font-size: 50px;
+}
