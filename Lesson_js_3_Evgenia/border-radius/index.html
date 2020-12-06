@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="box box-radiusTL">
+                <input type="range" id="rangetl" min="0" max="100" value="0" oninput="fun1()">
+                <input type="number" id="numbertl" min="0" max="100" value="0">
+            </div>
+            <div class="box box-radiusTR">
+                <input type="range" id="rangetr" min="0" max="100" value="0" oninput="fun1()">
+                <input type="number" id="numbertr" min="0" max="100" value="0" >
+            </div>
+        </div>
+        <div class="row-block">
+            <div id="block"></div>
+        </div>
+        <div class="row">
+            <div class="box box-radiusBL">
+                <input type="range" id="rangebl" min="0" max="100" value="0" oninput="fun1()">
+                <input type="number" id="numberbl" min="0" max="100" value="0">
+            </div>
+            <div class="box box-radiusBR">
+                <input type="range" id="rangebr" min="0" max="100" value="0" oninput="fun1()">
+                <input type="number" id="numberbr" min="0" max="100" value="0" >
+            </div>
+        </div>
+    </div>
+    <script src="./js/common.js"></script>
+</body>
+</html>
