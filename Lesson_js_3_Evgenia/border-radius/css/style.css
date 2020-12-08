@@ -2,12 +2,19 @@
     width: 900px;
     height: 600px;
     margin: 0 auto;
+    margin-top: 100px;
 }
-#block {
-    width: 500px;
-    height: 400px;
-    background: green;
+.block {
+    width: 400px;
+    height: 200px;
+    background: #666699;
     margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.tl, .tr, .bl, .br{
+    width: 350px;
+    height: 150px;
 }
 .box-radiusTL{
     border-top-left-radius: 50px;
