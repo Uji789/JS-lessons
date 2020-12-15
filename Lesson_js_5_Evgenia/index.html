@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <ul class="tab__list">
+                <li class="tab__item tab__item--active" data-tab="1">Color generator</li>
+                <li class="tab__item" data-tab="2">Border-radius generator</li>
+                <li class="tab__item" data-tab="3">Form submit</li>
+            </ul>
+            <div class="tab__content">
+                <div class="color">
+                    <div class="wrapp">
+                        <h1 class="random__color">random color generator</h1>
+                        <p class="random__color-desc">Please, press space to generate color</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab__content">
+                <div class="border__radius">
+                    <div class="row">
+                        <div class="box-side box-radiusTL">
+                            <input class="rangetl" type="range" min="0" max="100" value="0">
+                            <span class="numtl"></span>
+                        </div>
+                        <div class="box-side box-radiusTR">
+                            <input class="rangetr" type="range" min="0" max="100" value="0">
+                            <span class="numtr"></span>
+                        </div>
+                    </div>
+                    <div class="row-block">
+                        <div class="block">
+                            <span class="tl"></span><br>
+                            <span class="tr"></span><br>
+                            <span class="bl"></span><br>
+                            <span class="br"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box-side box-radiusBL">
+                            <input class="rangebl" type="range" min="0" max="100" value="0">
+                            <span class="numbl"></span>
+                        </div>
+                        <div class="box-side box-radiusBR">
+                            <input class="rangebr" type="range" min="0" max="100" value="0">
+                            <span class="numbr"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab__content">
+                <form class="form" action="#" method="POST">
+                    <p class="form-word">Form</p>
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Text input" required data-validate-field="name" name="u_name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Surname</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="text" placeholder="Text input" required data-validate-field="surname" name="u_surname">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Phone Number</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input input-phone" type="tel" placeholder="Input you'r phone number" required data-validate-field="phone" name="u_phone">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Email input" required data-validate-field="email" name="u_email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Textarea" data-validate-field="message" name="u_message"></textarea>
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-link">Submit</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="msg">
+                            Hooray! Нou are so great</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/common.js"></script>
+</body>
+</html>
