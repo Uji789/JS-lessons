@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapp{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.random__color{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.random__color-desc,
+.color{
+    font-size: 30px;
+}
+.color{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
