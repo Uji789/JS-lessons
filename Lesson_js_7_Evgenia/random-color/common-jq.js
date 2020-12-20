@@ -1,18 +1,10 @@
 $(document).ready(function () {
     function changeColor () {
-        let colRed = Math.round(255*Math.random());
-        let red = colRed.toString(16);
-        console.log(red);
-        let colGreen = Math.round(255*Math.random());
-        let green = colGreen.toString(16);
-        console.log(green);
-        let colBlue = Math.round(255*Math.random());
-        let blue = colBlue.toString(16);
-        console.log(red);
-        let color = "#" + red + green + blue;
-        $(".random__color-number").text(color.toUpperCase())
-        console.log(color.toUpperCase());
-        return color.toUpperCase();
+        // let colRed = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        let color = '#' + Math.random().toString(16).substr(-6).toUpperCase();
+        console.log(color);
+        $(".random__color-number").text(color)
+        return color;
         };
         let bodyTag = $("body");
         bodyTag.keydown(function (evt) {
